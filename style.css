@@ -1,0 +1,70 @@
+/* Reset */
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+/* Main Styling */
+
+body {
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+ul {
+   list-style: none;
+}
+
+a {
+   text-decoration: none;
+   color: #fff;
+}
+
+/* Utility classes */
+
+.container
+{
+  margin: auto; /*it makes all to the middle*/
+  max-width: 1100px;
+  padding: 0 20px;
+  overflow: auto;
+}
+
+/* Header */
+
+header {
+   background: #333;
+}
+
+/* Navbar */
+
+.menu {
+   display: flex;
+   padding: 10px;
+}
+
+.menu li {
+   padding: 10px;
+   
+}
+
+#showcase {
+   height: 300px;
+   text-align: center;
+   color: #fff;
+   display: flex;
+   flex-direction: column;
+}
+
+.show-content {
+   margin-bottom: 50px;
+   line-height: 2.7rem;
+}
+
+/* Main Content */
+
+.image {
+   background: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pinterest.com%2Fpin%2F99642210483185818%2F&psig=AOvVaw0aiqM1B5XilCKS2m64DuEz&ust=1623738876218000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCKino-_AlvECFQAAAAAdAAAAABAD");
+}
+
+
