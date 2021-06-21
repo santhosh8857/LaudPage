@@ -30,10 +30,27 @@ a {
   overflow: auto;
 }
 
-/* Header */
+/* Background dark */
 
-header {
-   background: #333;
+.bg-dark {
+   background: #272727;
+   color: #fff;
+}
+
+/* Buttons */
+
+.button {
+   display: flex;
+   justify-content: center;
+   height: 100%;
+   margin: 5px 0 30px;
+}
+
+/* Icons */
+
+i {
+   padding-right: 8px;
+   font-size: 20px;
 }
 
 /* Navbar */
@@ -63,8 +80,131 @@ header {
 
 /* Main Content */
 
-.image {
-   background: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pinterest.com%2Fpin%2F99642210483185818%2F&psig=AOvVaw0aiqM1B5XilCKS2m64DuEz&ust=1623738876218000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCKino-_AlvECFQAAAAAdAAAAABAD");
+.main-content {
+   display: flex;
+   
 }
 
+.left-content {
+   width: 50%;
+   margin: 50px 50px 25px 25px;
+}
 
+.left-content div {
+   margin-bottom: 50px;
+}
+
+.left-content h2,
+.left-content h3,
+.left-content p {
+   margin-bottom: 10px;
+}
+
+.right-img {
+   width: 50%;
+   padding: 50px 40px 70px 70px;
+   height: 600px;
+   margin: 30px 0 0 30px;
+}
+
+/* Ref Buttons */
+
+
+.btn {
+   padding: 10px 20px;
+   margin: 0px 5px;
+   border-radius: 4px;
+   color: #fff;
+   font-size: 17px;
+   font-weight: 600;
+   border: none;
+}
+
+.btn:hover {
+   cursor: pointer;
+}
+
+.btn-wiki {
+   color: #333;
+   background: #eeeded;
+}
+
+.btn-wiki:hover {
+   background: #c0bdbd;
+}
+
+.btn-youtube {
+   background: #d33131;
+}
+
+.btn-youtube:hover {
+   background: #ac1818;
+}
+
+.btn-amazon {
+   background: #f0a418;
+}
+
+.btn-amazon:hover {
+   background: #ca880d;
+}
+
+/* Quotes */
+
+.quotes {
+   text-align: center;
+   padding: 40px;
+}
+
+.quotes h3 {
+   font-weight: 600;
+}
+
+/* Acheivements */
+
+.award-heading {
+   text-align: center;
+   font-size: 25px;
+   margin: 40px;
+   font-weight: 600;
+   letter-spacing: 1.5px;
+}
+
+.award-heading i {
+   font-size: 27px;
+}
+
+.awards {
+   display: flex;
+}
+
+.box {
+   width: 25%;
+   background: #fdfdfd;
+   border: #ccc solid 0.5px;
+   margin: 10px;
+   padding: 10px;
+   line-height: 20px;
+}
+
+.box p,
+.box h4 {
+   margin-bottom: 5px;
+}
+
+/* Poetry and Poems */
+
+.poetry {
+   display: flex;
+}
+
+.p-box {
+   width: 50%;
+   margin: 40px;
+   padding: 10px;
+   border: red 1px solid;
+}
+
+.poetry ul{
+   list-style: disc;
+}
