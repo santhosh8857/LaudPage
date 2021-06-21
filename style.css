@@ -62,7 +62,10 @@ i {
 
 .menu li {
    padding: 10px;
-   
+}
+
+.menu li:hover {
+   border-bottom: #aaa 1px solid;
 }
 
 #showcase {
@@ -103,7 +106,7 @@ i {
 .right-img {
    width: 50%;
    padding: 50px 40px 70px 70px;
-   height: 600px;
+   height: 540px;
    margin: 30px 0 0 30px;
 }
 
@@ -200,11 +203,60 @@ i {
 
 .p-box {
    width: 50%;
-   margin: 40px;
+   margin: 60px 30px 60px 30px;
    padding: 10px;
-   border: red 1px solid;
+}
+
+.p-box h2 {
+   margin-bottom: 60px;
+   font-size: 30px;
+   text-align: center;
+   font-weight: bold;
+   letter-spacing: 1.2px;
 }
 
 .poetry ul{
    list-style: disc;
 }
+
+/* Footer */
+
+.footer-items {
+   display: flex;
+   margin: 50px 10px;
+}
+
+.f-box {
+   margin-left: 20px;
+   padding-right: 30px;
+   border-right: #555 1px dotted;
+}
+
+.f-box h4 {
+   margin-bottom: 15px;
+   font-weight: 600;
+}
+
+.f-box p {
+   font-size: 14px;
+}
+
+.f-box-40 {
+   width: 40%;
+}
+
+.f-box-20 {
+   width: 20%;
+}
+
+.text-dark {
+   color: #716d6d;
+}
+
+.text-blue {
+   color: #37378d;
+}
+.b-none {
+   border: none;
+}
+
