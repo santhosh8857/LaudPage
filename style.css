@@ -85,7 +85,6 @@ i {
 
 .main-content {
    display: flex;
-   
 }
 
 .left-content {
@@ -224,6 +223,7 @@ i {
 .footer-items {
    display: flex;
    margin: 50px 10px;
+   justify-content: center;
 }
 
 .f-box {
@@ -259,3 +259,4 @@ i {
 .b-none {
    border: none;
 }
+
