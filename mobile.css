@@ -1,0 +1,81 @@
+/* Iphone X */
+
+@media (min-width:360px) and (max-width:767px){
+   
+   /* About */
+   .right-img {
+      width: 100%;
+      padding: 10px;
+      height: 300px;
+   }
+
+   /* Icons */
+   .button i,
+   .button a {
+      display: block;
+      text-align: center;
+      font-size: 15px;
+   }
+
+
+   /* Awards */
+   .awards {
+      flex-direction: column;
+   }
+
+   .box {
+      width: 90%;
+   }
+
+   /* Poetry section */
+
+   .poetry {
+      flex-direction: column;
+   }
+
+   .p-box {
+      width: 90%;
+   }
+
+   /* Footer */
+
+   .footer-items {
+      flex-direction: column;
+   }
+
+   .f-box {
+      width: 90%;
+      margin-bottom: 30px;
+      padding-bottom: 20px;
+      border: none;
+      border-bottom: #555 1px dotted;
+   }
+
+   .b-none {
+      border: none;
+   }
+
+}
+
+/* Ipad */
+
+@media (max-width:768px) {
+
+   /* About */
+      .main-content {
+         flex-direction: column-reverse;
+         max-width: 90%;
+      }
+
+      .left-content {
+         width: 100%;
+      }
+
+      .right-img {
+         width: 70%;
+         align-self: center;
+      }
+   }
+
+   
+
